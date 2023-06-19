@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        Utils.printIntMethod(5);
+        System.out.println("Returned value is: " + Utils.printIntMethod());
     }
 }
