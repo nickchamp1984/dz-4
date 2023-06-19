@@ -1,6 +1,6 @@
 public class Utils {
-    private int x;
-    protected static int printIntMethod(int x) {
+    private static int x = 7;
+    protected static int printIntMethod() {
         System.out.println(x);
         return x;
     }
