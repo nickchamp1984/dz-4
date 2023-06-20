@@ -1,5 +1,7 @@
-public class Main {
+public class Main extends Utils{
     public static void main(String[] args) {
-        System.out.println("Returned value is: " + Utils.printIntMethod());
+        Utils utils = new Utils();
+        System.out.println(utils.printIntMethod());
+        System.out.println("~~~ <повернене значення> ~~~ \n" + someNumber);
     }
 }
